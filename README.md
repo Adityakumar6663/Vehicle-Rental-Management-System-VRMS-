@@ -15,15 +15,11 @@ The database structures data across six main tables:
 • Staff: Tracks workforce personnel assigned to daily operations.
 
 Tech Stack
-
 • Database: MySQL / MariaDB (managed via phpMyAdmin).
 • Backend & GUI: Java, JavaFX, and JDBC for database connectivity.
 • IDE & Build: NetBeans with Ant build management.
 • Java Architecture: Database classes are managed within a dedicated DB package (featuring connection, query, deletion, and display utilities).
-If you want to expand on this, let me know if you need help with:
-• Drafting the SQL schema creation scripts for these tables.
-• Writing the Java JDBC connection code (DBConnection).
-• Designing specific SQL queries for core logistics like preventing double-bookings.
+
 
 Vehicle Rental System;
 
