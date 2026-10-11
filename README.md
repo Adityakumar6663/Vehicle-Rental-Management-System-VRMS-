@@ -1,5 +1,30 @@
 # Vehicle-Rental-Management-System-VRMS-
 
+Overview & Objective
+
+The project aims to design and implement a centralized, relational Vehicle Rental Database System paired with a Java-based user interface. It replaces inefficient manual or spreadsheet-based tracking to eliminate double-bookings, secure financial auditing, and streamline fleet operations.
+
+Core Entities & Schema
+
+The database structures data across six main tables:
+• Customer: Tracks client details, contact info, and driver's license numbers.
+• Vehicle: Manages individual fleet assets, specifications, daily rental rates, and availability status.
+• Rental: Records contractual hire agreements, including dates, locations, and total cost.
+• Payment: Logs financial transaction histories, payment methods, and statuses.
+• Branch: Maps the physical pickup and drop-off locations.
+• Staff: Tracks workforce personnel assigned to daily operations.
+
+Tech Stack
+
+• Database: MySQL / MariaDB (managed via phpMyAdmin).
+• Backend & GUI: Java, JavaFX, and JDBC for database connectivity.
+• IDE & Build: NetBeans with Ant build management.
+• Java Architecture: Database classes are managed within a dedicated DB package (featuring connection, query, deletion, and display utilities).
+If you want to expand on this, let me know if you need help with:
+• Drafting the SQL schema creation scripts for these tables.
+• Writing the Java JDBC connection code (DBConnection).
+• Designing specific SQL queries for core logistics like preventing double-bookings.
+
 Vehicle Rental System;
 
  <img width="552" height="336" alt="image" src="https://github.com/user-attachments/assets/ca731f64-defd-445f-bd9a-fe20cb020d7e" />
@@ -10,11 +35,13 @@ Customer Registration;
 
 Vehicle Registration;
 
-<img width="552" height="362" alt="image" src="https://github.com/user-attachments/assets/f5d42951-aff7-474d-9bfc-b2983ed2d333" />
+<img width="551" height="341" alt="image" src="https://github.com/user-attachments/assets/fbdf977b-642c-4977-a3ad-213e08d8fca8" />
+
  
  Payment Details
 
-<img width="551" height="341" alt="image" src="https://github.com/user-attachments/assets/06b8f993-6293-45aa-9875-03abeabaa6b5" />
+<img width="558" height="336" alt="image" src="https://github.com/user-attachments/assets/2eab025b-00a8-4769-aa8b-05aee90e4265" />
+
 
 Available Vehicles;
 
